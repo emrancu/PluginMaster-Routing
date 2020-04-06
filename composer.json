@@ -1,0 +1,31 @@
+{
+  "name": "PluginMaster/Routing",
+  "description": "The PluginMaster Rest Routing Wrapper for WordPress.",
+  "license": "MIT",
+  "homepage": "https://github.com/emrancu/PluginMaster-Routing",
+  "support": {
+    "issues": "https://github.com/emrancu/PluginMaster-Routing/issues",
+    "source": "https://github.com/emrancu/PluginMaster-Routing"
+  },
+  "authors": [
+    {
+      "name": "AL EMRAN",
+      "email": "emrancu1@gmail.com"
+    }
+  ],
+  "keywords": [
+    "Routing",
+    "WP Rest Routing Wrapper",
+    "WordPress Plugin Development framework"
+  ],
+  "type": "project",
+  "autoload": {
+    "classmap": [],
+    "psr-4": {
+      "PluginMaster\\Routing\\": "src/"
+    }
+  },
+  "require": {
+
+  }
+}
