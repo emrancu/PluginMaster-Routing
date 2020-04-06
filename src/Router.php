@@ -11,7 +11,7 @@ class Router extends RoutingBase
      * @param bool $secure
      * @return
      */
-    public function get($route, $callback, $restNamespace, $secure = false)
+    public function getRoute($route, $callback, $restNamespace, $secure = false)
     {
         $formattedRoute = $this->formatRoute($route);
         $options = $this->generateRouteOptions($callback, 'GET');
@@ -30,7 +30,7 @@ class Router extends RoutingBase
      * @param bool $secure
      * @return
      */
-    public function post($route, $callback, $restNamespace, $secure = false)
+    public function postRoute($route, $callback, $restNamespace, $secure = false)
     {
         $formattedRoute = $this->formatRoute($route);
         $options = $this->generateRouteOptions($callback, 'POST');

@@ -11,9 +11,9 @@ abstract class RoutingBase
 
     protected $args = [];
 
-    abstract function get($route, $callback, $restNamespace, $secure = false);
+    abstract function getRoute($route, $callback, $restNamespace, $secure = false);
 
-    abstract function post($route, $callback, $restNamespace, $secure = false);
+    abstract function postRoute($route, $callback, $restNamespace, $secure = false);
 
 
 
